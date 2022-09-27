@@ -31,11 +31,11 @@ generateDrivenAdapter --type=mongodb --secret=false
 ```
 
 Cria uma implementação concreta do _Repository_ usando MongoDB, tal comando gera o seguinte novo módulo:
-  - **`infrastructure/driven-adapters` _(Interface Adapters)_**
+  - **`infrastructure/driven-adapters` _(Interface Adapters Layer)_**
 
 ```console
 generateEntryPoint --type=restmvc
 ```
 
 Cria um controlador imperativo usando a implementação concreta do Spring Framework para o Estilo Arquitetural REST, gerando o seguinte novo módulo:
-  - **`infrastructure/entry-points` _(Frameworks & Drivers)_**
+  - **`infrastructure/entry-points` _(Frameworks & Drivers Layer)_**
