@@ -1,6 +1,6 @@
 # Rec.FALAE
 
-Instância da **Rec.FALAE**, uma "Arquitetura Baseada em **Rec**onhecimento de **FALA** para *A*cessibilidade de Conteúdos **E**ducacionais". Tecnicamente, o projeto [bancolombia/scaffold-clean-architecture](https://github.com/bancolombia/scaffold-clean-architecture) foi utilizado para a geração de um projeto inicial aderente aos princípios da **_[Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)_**.
+Instância da **Rec.FALAE**, uma "Arquitetura Baseada em **Rec**onhecimento de **FALA** para **A**cessibilidade de Conteúdos **E**ducacionais". Tecnicamente, o projeto [bancolombia/scaffold-clean-architecture](https://github.com/bancolombia/scaffold-clean-architecture) foi utilizado para a geração de um projeto inicial aderente aos princípios da **_[Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)_**.
 
 Para isso, como primeiro passo, criamos um projeto gradle simples, contendo apenas um arquivo `build.gradle` com o plugin `co.com.bancolombia.cleanArchitecture` declarado (versão de referência: `2.4.5`). Com o plugin devidamente ativo, a seguinte sequencia de comandos `gradle` foi executada:
 
